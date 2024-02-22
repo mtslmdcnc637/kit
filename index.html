@@ -73,6 +73,68 @@
             text-decoration: none;
             margin-top: 1rem;
         }
+        .x-ray{
+            color:#fff;
+            background-color: #0E0F39;
+            padding: 10px 0;
+            margin: 20px 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem 1rem;
+            max-width: 950px;
+        }
+        .left  *{
+            text-align: right;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        .right  *{
+            text-align: left;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        .left, .right{
+            width: 50%;
+            
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 80vh;
+            border-right: 5px dotted #219076;
+            padding-right: 1rem;
+            margin-right: 1rem;
+        }
+        .container  img{
+            width: 74px;
+            height: 74px;
+        }
+        .bottom{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            margin-top: 15rem;
+        }
+        .bottom, .top{
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            align-items: end;
+        }
+        .section-3{
+            margin: 2rem 0;
+        }
     </style>
 </head>
 <body>
@@ -95,9 +157,71 @@
                     <b>R$ 8,64</b>
                     <small>ou R$ 47,00 á vista</small>
                 </div>
-                <a href="#" class="button">Eu quero</a>
+                <a href="#" class="button">Eu quero!</a>
                 
         </div>
-    </div>
+        <div class="section-2">
+            <h1 class="x-ray">COMO FUNCIONA?</h1>
+            <div class="container">
+                <div class="left">
+                    <div class="top">
+                        <img src="email_2-150x150.png" alt="">
+                        <h2>O *KIT INTERPRETAR PARA EVOLUIR*
+                            CHEGA EM SEU E-MAIL
+                            EM FORMATO PDF</h2>
+                            <p>O Conteúdo é 100% digital e chega em seu e-mail imediatamente após a confirmação da compra!</p>
+                    </div>
+                    <div class="bottom">
+                        <img src="lapisregua-150x150.png" alt="">
+                        <h2>O *KIT INTERPRETAR PARA EVOLUIR*
+                            CHEGA EM SEU E-MAIL
+                            EM FORMATO PDF</h2>
+                            <p>O Conteúdo é 100% digital e chega em seu e-mail imediatamente após a confirmação da compra!</p>
+                    </div>
+                    
+                </div>
+
+                <div class="right">
+                    <img src="printer_1-150x150.png" alt="">
+                    <h2>VOCÊ
+                        IMPRIME</h2>
+                    <p>Você pode imprimir todos os cadernos ou imprimir a medida que a criança for realizando! </p>
+
+                </div>
+            </div> <!-- container -->
+            <a href="#" class="button">Eu quero!</a>
+        </div>
+        <div class="section-3">
+            <h1>COMO O MATERIAL É POR DENTRO?</h1>
+            <div class="points">
+                <p>✅ 6 CADERNOS COM DIFERENTES NÍVEIS DE DIFICULDADE</p>
+                <p>✅ 40 ATIVIDADES EM CADA PDF</p>
+                <p>✅ 240 ATIVIDADES NO TOTAL</p>
+            </div>
+            <img src="how.png" alt="">
+            <br><br><br>
+            <a href="#" class="button">Eu quero!</a>
+            
+        </div>
+        <div class="section-4">
+            <h1>CONTEÚDO</h1>
+            <div class="container">
+                <div class="left-2">
+                    <div class="card">
+                        <img src="2-300x225.png" alt="">
+                        <h2>NÍVEL 1: TEXTOS PEQUENOS + ATIVIDADES DE MARCAR</h2>
+                        <p>Páginas super coloridas e atrativas! A criança vai reforçar a interpretação sem perceber!</p>
+                    </div>
+                    <div class="card">
+                        <img src="4-300x225.png" alt="">
+                        <h2>NÍVEL 3: TEXTOS MAIORES E DIFERENTES GÊNEROS</h2>
+                        <p>O caderninho continua bem colorido e ilustrado, trazendo muitos textos e questões DISCURSIVAS!</p>
+                    </div>
+                </div>
+                <div class="right-2"></div>
+            </div>
+        </div>
+
+   
 </body>
 </html>
