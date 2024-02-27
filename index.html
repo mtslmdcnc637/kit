@@ -343,6 +343,105 @@
         .padd{
             padding: 1rem 2rem;
         }
+        .section-11{
+            margin-top: 50px;
+        }
+        .section-11 .card{
+            width: 400px;
+            max-width: 90%;
+            box-shadow: 0 0 10px #999;
+            padding: 2rem;
+            background-color: #fff;
+        }
+        .r{
+            color: #d60000;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 1rem;
+        }
+        .m{
+            font-size: 3rem;
+            color: #00d334;
+            font-weight: 800;
+        }
+        .p{
+            font-size: 1.2rem;
+        }
+        .card-list{
+            color: #fb044b;
+            text-align: left;
+            font-size: .7rem;
+            list-style: none;
+        }
+        .card-list svg{
+            font-size: 1rem;
+            width: 1rem;
+            fill: #04f0e8;
+            margin-right: 5px;
+        }
+        .section-12{
+            display: flex;
+            flex-direction: row;
+            padding: 10px 200px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            background-color: #fff;
+        }
+        .section-12 h1, .section-12 h2{
+            padding: 1rem;
+        }
+        .card-left h2{
+            font-size: 2.5rem;
+            color: #0E0F39;
+        }
+        .card-left{
+            max-width: 50%;
+        }
+        .card-left h3{
+            font-size: 1.7rem;
+            color: #0E0F39;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            padding: 10px;
+        }
+        .card-left p{
+            font-size: 1rem;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: left;
+            color: #0E0F39;
+            margin-top: 10px;
+        }
+        .card-right{
+            color: #0E0F39;
+            max-width: 50%;
+            text-align: center;
+        }
+        .section-13{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .section-13 div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: auto;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .section-13 p{
+            max-width: 400px;
+            padding: 2rem;
+            text-align: left;
+        }
+        strong{
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -603,7 +702,7 @@
             </div>
         </div>
         <div class="section-10">
-            <h1>OFERTA EXCLUSIVA!</h1>
+            <h1 class="x-ray">OFERTA EXCLUSIVA!</h1>
             <h3>O *KIT INTERPRETAR PARA EVOLUIR* ESTÁ
                 COM CONDIÇÕES ESPECIAIS!</h3>
                 <p>Escolha a melhor forma de pagamento para você!</p>
@@ -620,33 +719,43 @@ AINDA ESTÁ DISPONÍVEL!
                     </div>
             </div>
         </div>
+
+
         <a href="#" class="button hard-2 padd">COMPRAR COM DESCONTO!</a>
 
+        <div class="section-11">
         <div class="card">
             <div class="card-header">
-              <h2>OFERTA EXCLUSIVA!</h2>
+              <h1 class="x-ray">OFERTA EXCLUSIVA!</h1>
             </div>
             <div class="card-body">
-              <p class="card-price">de R$ 97,00 por apenas 6 x</p>
-              <p class="card-price">R$ 8,64</p>
-              <p class="card-price-or">ou R$ 47,00 à vista</p>
-              <p class="card-title">KIT INTERPRETAR PARA EVOLUIR com 6 Apostilas</p>
+              <p class="r">de R$ 97,00 por apenas 6 x</p>
+              <p class="m">R$ 8,64</p>
+              <p class="m p">ou R$ 47,00 à vista</p>
+              <small>Pagamento Único</small>
               <ul class="card-list">
-                <li>Bônus 1: CARDS INTERPRETANDO TEXTINHOS</li>
-                <li>Bônus 2: CADERNO INTERPRETANDO TEXTINHOS + CADERNO DE CALIGRAFIA</li>
-                <li>Bônus 3: CADERNO INTERPRETANDO TEXTINHOS 2</li>
-                <li>Bônus 4: FICHAS DE DITADO</li>
-                <li>Bônus 5: DESENHOS PARA COLORIR</li>
-                <li>Bônus 6: CAÇA PALAVRAS SILABICO</li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg>    
+                </i>KIT INTERPRETAR PARA EVOLUIR com 6 Apostilas</li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg>    
+                <i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 1: CARDS INTERPRETANDO TEXTINHOS</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg><i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 2: CADERNO INTERPRETANDO TEXTINHOS + CADERNO DE CALIGRAFIA</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg><i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 3: CADERNO INTERPRETANDO TEXTINHOS 2</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg><i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 4: FICHAS DE DITADO</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg><i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 5: DESENHOS PARA COLORIR</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="4.Check mark"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/><path d="m10 17.414-3.707-3.707 1.414-1.414L10 14.586l7.293-7.293 1.414 1.414L10 17.414z"/></g></svg><i class="fa-solid fa-check" style="color: #74C0FC;"></i>Bônus 6: CAÇA PALAVRAS SILABICO</li>
               </ul>
-              Clique aqui para aproveitar o desconto enquanto ainda está disponível! <br>
+              <small>Clique aqui para aproveitar o desconto enquanto ainda está disponível!</small> <br>
               👇👇👇👇👇👇👇👇👇👇👇
             </div>
             <div class="card-footer">
-              <a href="#" class="card-button">KIT INTERPRETAÇÃO + Bônus</a>
+              <a href="#" class="button" style="padding: 10px 25px; font-size: 1.1rem;margin: 25px auto 0 auto; display: block;">KIT INTERPRETAÇÃO + Bônus</a>
             </div>
           </div>
-    <div class="section-10">
+</div>
+
+    <div class="section-12">
         <div class="card-left">
             <h2>Camila Medsi</h2>
             <h3>Educadora infantil e Responsável por todos os nossos materiais</h3>
@@ -658,9 +767,9 @@ AINDA ESTÁ DISPONÍVEL!
             <img src="Design-sem-nome-1.png" alt="">
         </div>
     </div>
-    <div class="section-11">
+    <div class="section-13">
         <h1> >> PERGUNTAS FREQUENTES << </h1>
-
+        <div>
 <p>
     <strong>1. COMO O *KIT INTERPRETAR PARA EVOLUIR* É ENTREGUE?</strong><br>
     O *KIT INTERPRETAR PARA EVOLUIR* é 100% digital. Enviamos os dados de acesso (login e senha) através do seu e-mail. Você vai acessar o link e baixar o conteúdo em seu computador ou celular. Para realizar a impressão, basta fazer normalmente como qualquer arquivo em PDF.
@@ -690,8 +799,8 @@ AINDA ESTÁ DISPONÍVEL!
     <strong>6. SERVE PARA CRIANÇAS COM DIFICULDADES DE APRENDIZAGEM?</strong><br>
     Sim. Todo o nosso *KIT INTERPRETAR PARA EVOLUIR* foi desenvolvido para atender crianças com ou sem dificuldades de aprendizagem. Temos centenas de casos de sucesso da utilização do nosso material por crianças Autistas, SD, dislexia, TDA e TDAH.
 </p>
-
-    <a href="#" class="button">COMPRAR COM DESCONTO!</a>
+</div>
+    <a href="#" class="button hard" style="font-size: 1.5rem; width: 50%; max-width: 600px; display: block; margin-bottom: 3rem;">COMPRAR COM DESCONTO!</a>
     </div>
 
       <div class="footer">*KIT INTERPRETAR PARA EVOLUIR* 2023 – TODOS OS DIREITOS RESERVADOS
