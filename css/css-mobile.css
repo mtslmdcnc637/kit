@@ -124,10 +124,23 @@
         gap: 2rem;
         border: none;
     }
-    .container{
+    .section-4 .container{
         flex-direction: column;
     }
-    .container *{
+    .section-6 .container{
+        flex-direction: column;
+    }
+    .section-6 .container * {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+        .section-6 .container img {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+    .section-4 .container *{
         width: 100%;
         margin: 0;
         padding: 0;
