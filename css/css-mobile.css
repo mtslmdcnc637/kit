@@ -83,6 +83,9 @@
         text-align: center;
         border: none;
     }
+    .section-1 h2{
+        padding: 1rem;
+    }
     .section-2 .container *{
         text-align: center;
         justify-content: center;
