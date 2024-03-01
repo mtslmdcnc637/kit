@@ -130,6 +130,9 @@
     .section-4 .container{
         flex-direction: column;
     }
+    .section-5{
+        padding: 1rem;
+    }
     .section-6 .container{
         flex-direction: column;
     }
